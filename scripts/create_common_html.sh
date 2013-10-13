@@ -12,13 +12,13 @@
 
 printf "\nConverting notebooks to html..."
 
-    # Remove old html files.
-    printf "\nRemoving old html files..."
-    rm ../*.html
-    printf "\n  Removed files."
+# Remove old html files.
+printf "\nRemoving old html files..."
+rm *.html
+printf "\n  Removed files."
 
-    # Convert raw .ipynb files to raw .html files.
-    printf "\nConverting raw .ipynb files to raw .html files..."
-    cd ../ && ipython nbconvert *.ipynb
-    printf "\n  Converted files.\n"
+# Convert raw .ipynb files to raw .html files.
+printf "\nConverting raw .ipynb files to raw .html files..."
+ipython nbconvert *.ipynb
+printf "\n  Converted files.\n"
 
