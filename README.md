@@ -1,4 +1,4 @@
-The Period Table
+The Periodic Table
 ==================
 
 An open curriculum for a physical science class I am teaching at Pacific High School.  Go to 
